@@ -46,3 +46,8 @@ header {
     background-repeat: no-repeat;
     background-position: bottom right, top left;
 }
+/* Banner css style */
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
