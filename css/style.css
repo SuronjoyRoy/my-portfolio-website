@@ -7,7 +7,15 @@ body{
 .text-primary {
     color: #FD6E0A;
 }
-
+button.btn-primary {
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 34px;
+}
 /* Nav css styles */
 .logo-title {
     color: #181818;
@@ -18,10 +26,23 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0px 100px;
 }
 nav>ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    color: #474747;
+}
+header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
 }
