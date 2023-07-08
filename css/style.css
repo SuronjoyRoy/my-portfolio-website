@@ -4,6 +4,10 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.container {
+    width: 1140px;
+    margin: auto;
+}
 .text-primary {
     color: #FD6E0A;
 }
@@ -122,4 +126,43 @@ p.about-sub-des {
 }
 p.skill-description {
     color: #757575;
+}
+/* Resume Css Styles */
+.resume-area {
+    margin-top: 130px;
+}
+
+h2.resume-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+h3.resume-colum-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-item h2 {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-item h3 {
+    color: #757575;
+}
+.resume-container hr {
+    margin: 30px;
+}
+.dowload-CV {
+    text-align: center;
+    margin-top: 50px;
 }
