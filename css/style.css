@@ -48,10 +48,22 @@ header {
 }
 /* Banner css style */
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
 }
 .banner .profile-img{
     width: 500px;
+}
+.my-name h3 {
+    color: #474747;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.my-name h1 {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 7px;
+    margin-bottom: 22px;
 }
