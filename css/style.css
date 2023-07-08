@@ -50,4 +50,8 @@ header {
 .banner {
     padding: 30px 30px 30px 150px;
     display: flex;
+    align-items: center;
+}
+.banner .profile-img{
+    width: 500px;
 }
